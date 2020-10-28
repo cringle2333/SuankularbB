@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.h0{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bahn1.png);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h1{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback11.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h2{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback2.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h3{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback3.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h4{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback4.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h5{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback5.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h6{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback6.jpg);
+	height: 100vh;
+	background-size: cover;
+}
+
+.h78{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bback78.jfif);
+	height: 100vh;
+	background-size: cover;
+}
+
+ul{
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+ul li{
+	float: left;
+}
+
+ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.4s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #333;
+}
+
+.title h1{
+	font-size: 90px;
+}
+
+.title{
+	color: #fff;
+	position: absolute;
+	top: 25%;
+	left: 10%;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #333;	
+}
+
+ul li a{
+	border: transparent;
+}
+
+.titleR{
+	color: #fff;
+	position: absolute;
+	top: 15%;
+	left: 7%;
+}
+
+.titleR h1{
+	font-size: 60px;
+}
+
+.textR{
+	text-align: justify;
+	color: #fff;
+	margin-left: 7%;
+	margin-right: 5%;
+}
+
+.textT{
+	text-align: center;
+	color: #fff;
+	margin-left: 7%;
+	margin-right: 5%;
+	font-size: x-large;
+}
+
+.hr1{
+	background: linear-gradient(#FF7FF0 45%,#FFFF54 10%,lightblue 45%);
+	border-color: black;
+}
+
+.hr2{
+		background: linear-gradient(45deg,#FF7FF0 50%, lightblue 50%);
+		border: transparent;
+		border-color: black;
+		border-radius: 10px;
+}
+
+.pic{
+	float: left;
+	margin-top: 20px;
+	margin-left: 37%;
+	padding: 0 10px 0 0;
+}
+
+.submenu{
+	display: none;
+	margin-top: -15px;
+}
+
+.menu ul li:hover .submenu{
+	display: block;
+	position: absolute;
+	margin-left: -100px;
+}
+
+.submenu ul li{
+	margin: 2px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.submenu ul li a{
+	color: #fff;
+}
+
+.submenu ul li a:hover{
+	color: #000;
+	background-color: #fff;
+}
